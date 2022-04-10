@@ -366,8 +366,7 @@ display: none;
 }
 
 #tours .tour_h2{  
-    margin: 3em .5em .5em .5em;
-    margin: ;
+    margin: 2em .5em 0em .5em;
     text-align:left;
     font-size: 1.5em;
 }
@@ -613,6 +612,11 @@ display: none;
 #vehicles .vehicle_item:hover .vehicle_img img{
     transform: scale(1.1);
 }
+#vehicles .vehicles .vehicle_h2{
+    margin: 0em .5em 2.8em .5em;
+    text-align:left;
+    /* font-size: 1.5em; */
+}
 /* End Vehicle section */
 
  /* Contact Section */
@@ -761,15 +765,15 @@ display: none;
 #footer .social_icon:hover img {
 	filter: grayscale(1);
 }
-#footer p {
+#footer .foot_p2{
 	color: white;
-	font-size: .6rem;
+	font-size: .8rem;
     margin-bottom: 0;
 }
 #footer .foot_p {
 	color: rgb(14, 212, 136);
 	font-weight: 500;
-	font-size: .7em;
+	font-size: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	letter-spacing: 0.1rem;
 	margin-top: 1.5em;

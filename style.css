@@ -1146,6 +1146,10 @@ display: none;
     font-size: 3.0em;
     color: rgb(30, 66, 210);
 }
+#home .home_h {
+    margin-top: 3em;
+
+}
 #home .home_p p{
     font-size: 1.9em;
     width: 20em;

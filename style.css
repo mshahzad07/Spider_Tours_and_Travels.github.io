@@ -1145,6 +1145,7 @@ display: none;
 #home .home_h  h1{
     font-size: 3.0em;
     color: rgb(30, 66, 210);
+    width: 8em;
 }
 #home .home_h {
     margin-top: 15rem;

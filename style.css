@@ -1122,16 +1122,16 @@ display: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin:1.3em 1em 0 0;
+        margin:0em 1em 0 0;
     }
     #header .nav-bar .nav_num_2 .nav_num_2_img{
         border-radius: 50%;
         height: 3em;
         width: 3em;
-        margin:1.3em 1.6em 1.3em 0;
+        margin: .9em 1.6em 1.3em 0;
     }
     #header .nav-bar .nav_num_2 h3{
-        margin:.4em 1em .3em 0;
+        margin:0em 1em 0em 0;
         font-size: 1.5em;
         color: rgb(156, 210, 30);
     }

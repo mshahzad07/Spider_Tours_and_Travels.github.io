@@ -1131,8 +1131,8 @@ display: none;
         margin: .9em 1.6em 1.3em 0;
     }
     #header .nav-bar .nav_num_2 h3{
-        margin:0em 1em 0em 0;
-        font-size: 1.5em;
+        margin: 0em 1em 0em 0;
+        font-size: 1.3em;
         color: rgb(156, 210, 30);
     }
     #header .nav-list ul .number{
@@ -1148,7 +1148,7 @@ display: none;
     width: 8em;
 }
 #home .home_h {
-    margin-top: 15rem;
+    margin-top: 10rem;
 
 }
 #home .home_p p{

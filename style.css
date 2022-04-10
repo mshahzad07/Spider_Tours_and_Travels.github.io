@@ -741,15 +741,7 @@ display: none;
     justify-self: center;
     color: chartreuse;
 }
-#footer .foot_p {
-	color: rgb(14, 212, 136);
-	font-weight: 500;
-	font-size: .7em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	letter-spacing: 0.1rem;
-	margin-top: 1.5em;
-	margin-bottom: 1em;
-}
+
 #footer .social_icons {
 	display: flex;
 	margin: 1.5em;
@@ -773,6 +765,15 @@ display: none;
 	color: white;
 	font-size: .6rem;
     margin-bottom: 0;
+}
+#footer .foot_p {
+	color: rgb(14, 212, 136);
+	font-weight: 500;
+	font-size: .7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.1rem;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
 }
 /* End of Footer Section */
 /* key frames */
@@ -1137,16 +1138,16 @@ display: none;
 
     /* tour section */
 #home .home_h  h1{
-    font-size: 5em;
+    font-size: 3.0em;
     color: rgb(30, 66, 210);
 }
 #home .home_p p{
     font-size: 1.9em;
     width: 20em;
-    margin-left: 100%;
+    /* margin-left: 100%; */
 }
 .btn{
-    margin-left: 180%;
+    /* margin-left: 180%; */
     width: 10em;
     background-color: coral;
 }

@@ -249,30 +249,30 @@ display: none;
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.1;
+    opacity: 0.3;
     z-index: -1;
 }
 
 #home .home {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 1.5rem;
     justify-content: flex-start;
 }
 #home .home h1{
-    background-color: rgba(38, 9, 99,.5);
+    background-color: rgba(9, 49, 99, 0.5);
 }
 #home h1 {
-    margin: 20px;
+    margin: 1rem 0;
     display: block;
     width: auto;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     position: relative;
     color: transparent;
     animation: text_reveal 0.5s ease forwards;
     animation-delay: 1s;
     color: #0fb438;
-    padding:0 5px;
+    padding: .5rem .5rem;
 }
 
 #home h1:nth-child(1) {
@@ -304,7 +304,7 @@ display: none;
 
 #home p {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 #home p:nth-child(1) {
@@ -330,7 +330,7 @@ display: none;
     display: inline-block;
     padding: 10px 30px;
     color: white;
-    background-color:#29323c;
+    background-color:rgba(146, 107, 65,1);
     border: 2px solid crimson;
     font-size: 2rem;
     text-transform: uppercase;
@@ -342,7 +342,7 @@ display: none;
 
 #home .btn:hover {
     color: white;
-    background-color: rgb(9, 109, 137);
+    background-color:blue;
 }
 
 /* end of home section */
@@ -733,7 +733,7 @@ display: none;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
 #footer .footer {
-	min-height: 20em;
+	min-height: 20vh;
 	flex-direction: column;
 	padding-top: 1em;
 	padding-bottom: 0em;
@@ -741,7 +741,7 @@ display: none;
     align-items: center;
 }
 #footer h1{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     align-self: center;
     justify-self: center;
     color: chartreuse;
@@ -768,8 +768,8 @@ display: none;
 }
 #footer .foot_p2{
 	color: white;
-	font-size: .8rem;
-    margin-bottom: 0;
+	font-size: .6rem;
+    margin-bottom: 0.7rem;
 }
 #footer .foot_p {
 	color: rgb(14, 212, 136);
@@ -778,7 +778,7 @@ display: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	letter-spacing: 0.1rem;
 	margin-top: 1.5em;
-	margin-bottom: 1em;
+    margin-bottom: 0.7rem;
 }
 /* End of Footer Section */
 /* key frames */
@@ -1122,16 +1122,16 @@ display: none;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin:0em 1em 0 0;
+        margin:0em 1eem 0 0;
     }
     #header .nav-bar .nav_num_2 .nav_num_2_img{
         border-radius: 50%;
-        height: 3em;
-        width: 3em;
-        margin: .9em 1.6em 1.3em 0;
+        height: 2.5em;
+        width: 2.5em;
+        margin: 0em .3em 0em 0;
     }
     #header .nav-bar .nav_num_2 h3{
-        margin: 0em 1em 0em 0;
+        margin: 0%;
         font-size: 1.3em;
         color: rgb(156, 210, 30);
     }
@@ -1142,25 +1142,34 @@ display: none;
     /* End header */
 
     /* tour section */
+#home .home_h .desk_head{
+        display: flex;
+        flex-direction: row;
+}
 #home .home_h  h1{
-    font-size: 3.0em;
+    font-size: 2rem;
     color: rgb(30, 66, 210);
-    width: 8em;
+    margin-top: 1rem;
 }
 #home .home_h {
+    margin-top: 2rem;
+
+}
+#home .home_p{
     margin-top: 10rem;
 
 }
 #home .home_p p{
-    font-size: 1.9em;
+    font-size: 1.5em;
     width: 20em;
-    /* margin-left: 100%; */
+    margin-left: 10rem;
 }
 .btn{
-    /* margin-left: 180%; */
+    margin-left: 58rem;
     width: 10em;
     background-color: coral;
 }
+
 .shangrilla{
     background-image: url("./Resources/images/Places/shangrilla_10.jpg");
     background-size: cover;
@@ -1170,16 +1179,16 @@ display: none;
 }
     #tours .tours_top p{
         min-width: 50%;
-        font-size: 2em;
+        font-size: 1.3em;
     }
     #tours .tours .tour_h2{
-        font-size: 2.4em;
-
+        font-size: 1.3em;
+        margin-top: 2rem;
     }
     #tours  .tours_bottom .tours-item{
         flex-basis: 40%;
 		margin-left:5%;
-        height: 50rem;
+        height: 80vh;
     }
     #tours  .tours_bottom .tours-item .item_h{
         /* background-color: rgba(7, 104, 102, 0.4); */
@@ -1193,7 +1202,7 @@ display: none;
 
     /* Vehicle Section */
    #vehicles .vehicles .vehicle_h2{
-       font-size: 2.2em;
+       font-size: 1.5em;
        justify-self: left;
    }
     #vehicles .vehicle_item{
@@ -1214,12 +1223,12 @@ display: none;
         margin-top: 1em;
     }
     #vehicles .vehicle_details{
-        margin-top: 2em;
+        margin-top: 0em;
         height: 100%;
 
     }
     #vehicles .vehicle_details .vehicle_info{
-        height: 60vh;
+        height: 70vh;
         margin-top: 2em;
     }
     #vehicles .vehicle_details .vehicle_item .info_left{
@@ -1235,7 +1244,7 @@ display: none;
         border-bottom-right-radius: 1em;
     }
     #vehicles .vehicle_details .vehicle_img{
-        height: 60vh;
+        height: 70vh;
         width: 100%;
         margin-top: 2em;
     }
@@ -1263,7 +1272,7 @@ display: none;
 
     #contact .contact {
     flex-direction: column;
-    padding: 100px 0;
+    padding: 3rem 0;
     align-items: center;
     justify-content: center;
 }
@@ -1306,35 +1315,39 @@ display: none;
 #contact .contact_item .contact_info h1{
     font-weight: 1000;
     margin-bottom: 2em;
-    font-size: 28px;
+    font-size: 25px;
 }
 #contact .contact_item .contact_info h2{
     margin: 0 20px;
-    font-size: 18px;
+    font-size: 15px;
 }
 #about .about{
-    height: 90vh;
+    height: 100vh;
 }
 #about .about .about_right .about_h{
-    font-size: 5rem;
+    font-size: 2.5rem;
 }
 #about .about .about_right p{
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 
 /* End of Contact Section */
 
  /* Footer Section */
+ #footer .footer{
+    height: 40vh;
+    padding: 2em 0 0 0;
+ }
  #footer .footer .foot_h{
-    font-size: 3em;
+    font-size: 2em;
  }
  #footer .footer .foot_p{
-     font-size: 2em;
+     font-size: 1.2em;
  }
  #footer .footer .foot_p2{
-     font-size: 1.6rem;
-     margin-bottom: 2em;
+     font-size: .8rem;
+     margin-bottom: 1rem;
  }
  /* End of Footer SEction */
 

@@ -1128,15 +1128,19 @@ display: none;
         align-items: center;
         margin:0em 2rem 0 0;
     }
+    #header .nav-bar .nav_num_2 .numbers{
+        margin: 0;
+        font-size: .6rem;
+    }
     #header .nav-bar .nav_num_2 .nav_num_2_img{
         border-radius: 50%;
-        height: 2em;
-        width: 2em;
+        height: 1.5em;
+        width: 1.5em;
         margin: 0em .3em 0em 0;
     }
     #header .nav-bar .nav_num_2 h3{
         margin: 0%;
-        font-size: 1.3em;
+        font-size: 1em;
         color: rgb(156, 210, 30);
     }
     #header .nav-list ul .number{
@@ -1149,30 +1153,41 @@ display: none;
 #home .home_h .desk_head{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        padding:15% 0 0 0;
+
 }
 #home .home_h  h1{
     font-size: 2rem;
     color: rgb(30, 66, 210);
-    margin-top: 1rem;
+    width:max-content;
 }
 #home .home_h {
-    margin-top: 2rem;
-
+    margin: auto;
+    width: 100%;
 }
 #home .home_p{
-    margin-top: 20%;
-    font-family: "montserrat Alternate",sans-serif;
+    margin: auto;
+    width: 60%;
+    font-size: 1.5em;
+    font-family: 'Poiret One', cursive;
+    border: 2px solid coral;
+    padding: 1rem;
+    background-color: rgba(19, 81, 153, 0.4);
 
 }
-#home .home_p p{
-    font-size: 1.5em;
-    width: 20em;
-    margin-left: 10rem;
-}
 .btn{
-    margin-left: 58rem;
-    width: 10em;
-    background-color: coral;
+    text-decoration: none;
+    border: .1rem solid transparent ;
+    border-radius: .5rem;
+    background-color:rgb(6, 130, 111);
+    color: rgb(185, 215, 205);
+    padding: 0 1.5rem;
+    margin:0 0 0 20rem;
+}
+.btn:hover{
+    color: chartreuse;
+    background-color: #260963;
 }
 
 .shangrilla{

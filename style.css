@@ -1141,7 +1141,7 @@ display: none;
     }
     #header .nav-bar .nav_num_2 h3{
         margin: 0%;
-        font-size: 1em;
+        font-size: 1rem;
         color: rgb(156, 210, 30);
     }
     #header .nav-list ul .number{
